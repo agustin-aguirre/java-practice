@@ -7,7 +7,7 @@ public class UserInputsReader {
         var names = new ArrayList<String>();
         var scanner = new Scanner(System.in);
         var input = scanner.nextLine();
-        while (!input.equalsIgnoreCase("end")) {
+        while (!input.equalsIgnoreCase("")) {
             names.addLast(input);
             input = scanner.nextLine();
         }
